@@ -12,6 +12,19 @@ db.defaults({ posts: [] }).write();
 db.get("posts")
   .push({ id: 1, title: "lowdb is awsome", published: true })
   .write();
+
+db.get("posts")
+  .push({ id: 2, title: "lowdb is awsome", published: true })
+  .write();
+
+db.get("posts")
+  .push({ id: 3, title: "lowdb is awsome", published: true })
+  .write();
+
+db.get("posts")
+  .push({ id: 4, title: "lowdb is awsome", published: true })
+  .write();
+
 console.log(db.get("posts").value());
 
 // count posts
