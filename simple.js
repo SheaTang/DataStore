@@ -8,14 +8,6 @@ var db = low(adapter);
 // Set some Defaults
 db.defaults({ posts: [] }).write();
 
-// Add a post
-
-db.get("posts").push({ id: 2, title: "great", published: true }).write();
-
-db.get("posts").push({ id: 3, title: "new own", published: false }).write();
-
-db.get("posts").push({ id: 4, title: "random", published: false }).write();
-
 console.log(db.get("posts").value());
 
 // count posts
