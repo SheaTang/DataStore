@@ -39,6 +39,11 @@
       "id": "12",
       "title": "hello world",
       "published": "true"
+    },
+    {
+      "id": 1,
+      "title": "lowdb is awsome",
+      "published": true
     }
   ]
 }
