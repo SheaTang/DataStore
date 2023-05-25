@@ -42,32 +42,22 @@
     },
     {
       "id": 1,
-      "title": "lowdb is awsome",
-      "published": true
-    },
-    {
-      "id": 1,
-      "title": "lowdb is awsome",
-      "published": true
-    },
-    {
-      "id": 1,
-      "title": "lowdb is awsome",
+      "title": "post 1",
       "published": true
     },
     {
       "id": 2,
-      "title": "great",
-      "published": true
-    },
-    {
-      "id": 3,
-      "title": "new own",
+      "title": "post 2",
       "published": false
     },
     {
+      "id": 3,
+      "title": "post 3",
+      "published": true
+    },
+    {
       "id": 4,
-      "title": "random",
+      "title": "post 4",
       "published": false
     }
   ]
