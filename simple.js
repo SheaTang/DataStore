@@ -29,7 +29,11 @@ console.log("allPosts", allPosts);
 // all matches of published false
 // ----------------------------
 // YOUR CODE
+let unpublished = db.get("posts").filter({ published: false }).value();
+console.log("unpublished", unpublished);
 
 // find post with published false
 // ----------------------------
 // YOUR CODE
+let unpublishedPost = db.get("posts").find({ published: false }).value();
+console.log("unpublishedPost", unpublishedPost);
