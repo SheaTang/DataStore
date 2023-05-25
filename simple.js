@@ -5,10 +5,13 @@ var db = low(adapter);
 
 // init the data store
 // ---------------------------
-db.defaults({ posts: [], user: {} }).write();
+// Set some Defaults
+db.defaults({ posts: [] }).write();
 
 // Add a post
-db.get("posts").push({ id: 1, title: "lowdb is awsome" }).write();
+db.get("posts")
+  .push({ id: 1, title: "lowdb is awsome", published: true })
+  .write();
 console.log(db.get("posts").value());
 
 // count posts
