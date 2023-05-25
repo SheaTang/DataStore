@@ -9,9 +9,6 @@ var db = low(adapter);
 db.defaults({ posts: [] }).write();
 
 // Add a post
-db.get("posts")
-  .push({ id: 1, title: "lowdb is awsome", published: true })
-  .write();
 
 db.get("posts").push({ id: 2, title: "great", published: true }).write();
 
